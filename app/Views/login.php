@@ -33,7 +33,7 @@
                 <div class="brand-logo">
                   <!-- <img src="<?= base_url() ?>/images/logo.svg" alt="logo"> -->
                 </div>
-                <h4>Hello! Selamat Datang Uhuy</h4>
+                <h4>Hello! Selamat Datang Cekkk</h4>
                 <h6 class="fw-light">Sign in to continue.</h6>
                 <form class="pt-3">
                   <div class="form-group">
