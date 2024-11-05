@@ -7,21 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Login Millenium</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/feather/feather.css">
-  <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/typicons/typicons.css">
-  <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/simple-line-icons/css/simple-line-icons.css">
-  <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/css/vendor.bundle.base.css">
-  <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>vendors/feather/feather.css">
+  <link rel="stylesheet" href="<?= base_url() ?>vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="<?= base_url() ?>vendors/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?= base_url() ?>vendors/typicons/typicons.css">
+  <link rel="stylesheet" href="<?= base_url() ?>vendors/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="<?= base_url() ?>vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="<?= base_url() ?>vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
   <!-- endinject -->
   <!-- Plugin css for this page -->
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="<?= base_url() ?>/public/css/style.css">
+  <link rel="stylesheet" href="<?= base_url() ?>css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="<?= base_url() ?>/public/images/favicon.png" />
+  <link rel="shortcut icon" href="<?= base_url() ?>images/favicon.png" />
 </head>
 
 <body>
@@ -58,17 +58,17 @@
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
-  <script src="<?= base_url() ?>/public/vendors/js/vendor.bundle.base.js"></script>
-  <script src="<?= base_url() ?>/public/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+  <script src="<?= base_url() ?>vendors/js/vendor.bundle.base.js"></script>
+  <script src="<?= base_url() ?>vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page -->
   <!-- End plugin js for this page -->
   <!-- inject:js -->
-  <script src="<?= base_url() ?>/public/js/off-canvas.js"></script>
-  <script src="<?= base_url() ?>/public/js/template.js"></script>
-  <script src="<?= base_url() ?>/public/js/settings.js"></script>
-  <script src="<?= base_url() ?>/public/js/hoverable-collapse.js"></script>
-  <script src="<?= base_url() ?>/public/js/todolist.js"></script>
+  <script src="<?= base_url() ?>js/off-canvas.js"></script>
+  <script src="<?= base_url() ?>js/template.js"></script>
+  <script src="<?= base_url() ?>js/settings.js"></script>
+  <script src="<?= base_url() ?>js/hoverable-collapse.js"></script>
+  <script src="<?= base_url() ?>js/todolist.js"></script>
   <!-- endinject -->
 </body>
 
