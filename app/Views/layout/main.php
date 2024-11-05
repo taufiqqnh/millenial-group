@@ -7,23 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Star Admin2 </title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/feather/feather.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/ti-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/typicons/typicons.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/feather/feather.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/typicons/typicons.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="<?= base_url() ?>/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/js/select.dataTables.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/public/js/select.dataTables.min.css">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="<?= base_url() ?>/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/css/style.css">
     <!-- endinject -->
-    <link rel="shortcut icon" href="<?= base_url() ?>/images/favicon.png" />
+    <link rel="shortcut icon" href="<?= base_url() ?>/public/images/favicon.png" />
   </head>
   <body class="with-welcome-text">
     <div class="container-scroller">
@@ -38,10 +38,10 @@
           </div>
           <div>
             <a class="navbar-brand brand-logo" href="index.html">
-              <img src="<?= base_url() ?>/images/logo.svg" alt="logo" />
+              <img src="<?= base_url() ?>/public/images/logo.svg" alt="logo" />
             </a>
             <a class="navbar-brand brand-logo-mini" href="index.html">
-              <img src="<?= base_url() ?>/images/logo-mini.svg" alt="logo" />
+              <img src="<?= base_url() ?>/public/images/logo-mini.svg" alt="logo" />
             </a>
           </div>
         </div>
@@ -85,10 +85,10 @@
             </li>
             <li class="nav-item dropdown d-none d-lg-block user-dropdown">
               <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                <img class="img-xs rounded-circle" src="<?= base_url() ?>/images/faces/face8.jpg" alt="Profile image"> </a>
+                <img class="img-xs rounded-circle" src="<?= base_url() ?>/public/images/faces/face8.jpg" alt="Profile image"> </a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                 <div class="dropdown-header text-center">
-                  <img class="img-md rounded-circle" src="<?= base_url() ?>/images/faces/face8.jpg" alt="Profile image">
+                  <img class="img-md rounded-circle" src="<?= base_url() ?>/public/images/faces/face8.jpg" alt="Profile image">
                   <p class="mb-1 mt-3 fw-semibold">Allen Moreno</p>
                   <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
                 </div>
@@ -125,23 +125,23 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="<?= base_url() ?>/vendors/js/vendor.bundle.base.js"></script>
-    <script src="<?= base_url() ?>/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="<?= base_url() ?>/public/vendors/js/vendor.bundle.base.js"></script>
+    <script src="<?= base_url() ?>/public/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
-    <script src="<?= base_url() ?>/vendors/chart.js/chart.umd.js"></script>
-    <script src="<?= base_url() ?>/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="<?= base_url() ?>/public/vendors/chart.js/chart.umd.js"></script>
+    <script src="<?= base_url() ?>/public/vendors/progressbar.js/progressbar.min.js"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="<?= base_url() ?>/js/off-canvas.js"></script>
-    <script src="<?= base_url() ?>/js/template.js"></script>
-    <script src="<?= base_url() ?>/js/settings.js"></script>
-    <script src="<?= base_url() ?>/js/hoverable-collapse.js"></script>
-    <script src="<?= base_url() ?>/js/todolist.js"></script>
+    <script src="<?= base_url() ?>/public/js/off-canvas.js"></script>
+    <script src="<?= base_url() ?>/public/js/template.js"></script>
+    <script src="<?= base_url() ?>/public/js/settings.js"></script>
+    <script src="<?= base_url() ?>/public/js/hoverable-collapse.js"></script>
+    <script src="<?= base_url() ?>/public/js/todolist.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page-->
-    <script src="<?= base_url() ?>/js/jquery.cookie.js" type="text/javascript"></script>
-    <script src="<?= base_url() ?>/js/dashboard.js"></script>
+    <script src="<?= base_url() ?>/public/js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>/public/js/dashboard.js"></script>
     <!-- <script src="<?= base_url() ?>/js/Chart.roundedBarCharts.js"></script> -->
     <!-- End custom js for this page-->
   </body>
