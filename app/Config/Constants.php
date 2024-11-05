@@ -100,18 +100,3 @@ if ($server_name == 'localhost' or filter_var($server_name, FILTER_VALIDATE_IP))
     $base_url .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 }
 defined('BASE') || define('BASE', $base_url);
-
-// $server_name = !empty($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost:8080/public';
-// $base_url = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
-// $base_url .= "://" .  $server_name;
-
-// if ($server_name == 'localhost' || filter_var($server_name, FILTER_VALIDATE_IP)) {
-//     // Untuk localhost, tambahkan jalur ke root aplikasi Anda.
-//     $base_url .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
-// } else {
-//     // Untuk hosting, pastikan tidak menambahkan '/public' jika tidak diperlukan.
-//     // Jika Anda menggunakan folder public, tambahkan '/public' jika file index.php berada di dalam folder public
-//     $base_url .= '/public'; // Tambahkan '/' untuk memastikan URL akhir benar
-// }
-
-// defined('BASE') || define('BASE', rtrim($base_url, '/')); // Hapus trailing slash jika perlu
