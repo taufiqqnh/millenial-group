@@ -34,11 +34,7 @@
               <div class="brand-logo">
                 <!-- <img src="<?= base_url() ?>/images/logo.svg" alt="logo"> -->
               </div>
-<<<<<<< HEAD
               <h4>Hello! Selamat Datang Millenium</h4>
-=======
-              <h4>Hello! Selamat Datang</h4>
->>>>>>> a5d4cf8e97999b5c4fe19da888b0e9f0bd551844
               <h6 class="fw-light">Sign in to continue.</h6>
               <form class="pt-3">
                 <div class="form-group">
